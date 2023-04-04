@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "agni-bhuvanesh0404"
+  description: "agni-bhuvanesh0404"
+  links:
+    - title: Website
+      # Change the template in the future to collect the domain name mtk8s.io
+      # parameters.properties.name(type: string,default: 'world!')
+      url: https://agni-bhuvanesh0404.mtk8s.io
+  annotations:
+    argocd/app-name: "agni-bhuvanesh0404"
+    sonarqube.org/project-key: "agni-bhuvanesh0404"
+    jenkins.io/job-full-name: "agni-bhuvanesh0404_App_Pipeline"
+    #github.com/project-slug: kbmdev/agni-bhuvanesh0404
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "agni-bhuvanesh0404"
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/jvs"

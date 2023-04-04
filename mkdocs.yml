@@ -1,0 +1,7 @@
+site_name: "agni-bhuvanesh0404"
+docs_dir: docs
+site_description: "agni-bhuvanesh0404"
+nav:
+  - Introduction: index.md
+plugins:
+  - techdocs-core
